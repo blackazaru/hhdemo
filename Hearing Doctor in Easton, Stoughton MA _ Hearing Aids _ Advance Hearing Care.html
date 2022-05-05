@@ -463,8 +463,8 @@ function initLandbot() {
   if (!myLandbot) {
     var s = document.createElement('script');s.type = 'text/javascript';s.async = true;
     s.addEventListener('load', function() {
-      myLandbot = new Landbot.Popup({
-        configUrl: 'https://chats.landbot.io/v3/H-1175536-VI1RU9UU2UHTRCPC/index.json',
+      var myLandbot = new Landbot.Livechat({
+        configUrl: 'https://chats.landbot.io/v3/H-1207327-FC51FHLERF9RM2DM/index.json',
       });
     });
     s.src = 'https://cdn.landbot.io/landbot-3/landbot-3.0.0.js';
